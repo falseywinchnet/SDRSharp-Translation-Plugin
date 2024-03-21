@@ -9,8 +9,6 @@ namespace SDRSharp.TranslationPlugin
 	{
 		private readonly ISharpControl _controlInterface;
 
-		private readonly System.Windows.Forms.Timer _srTimer1 = new System.Windows.Forms.Timer();
-
 		private IContainer components = null;
 
 		public MyPluginCollapsiblePanel(ISharpControl control)
